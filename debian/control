@@ -21,11 +21,14 @@ Depends: libcalc3.6.1 (= ${binary:Version}),
          ${epics:Depends},
 Conflicts: epics-synapps, epics-synapps-dev,
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains headers and libraries needed at build time.
 
@@ -33,11 +36,14 @@ Package: libcalc3.6.1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains runtime libraries
 
@@ -48,11 +54,14 @@ Depends: epics-calc-dev (>= ${source:Version}),
          ${rtems:Depends}, ${misc:Depends},
 Conflicts: rtems-synapps-mvme2100,
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains support for the MVME2100 VME SBC
 
@@ -63,11 +72,14 @@ Depends: epics-calc-dev (>= ${source:Version}),
          ${rtems:Depends}, ${misc:Depends},
 Conflicts: rtems-synapps-mvme3100,
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains support for the MVME3100 VME SBC
 
@@ -78,11 +90,14 @@ Depends: epics-calc-dev (>= ${source:Version}),
          ${rtems:Depends}, ${misc:Depends},
 Conflicts: rtems-synapps-mvme5500,
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains support for the MVME5500 VME SBC
 
@@ -93,10 +108,13 @@ Depends: epics-calc-dev (>= ${source:Version}),
          ${rtems:Depends}, ${misc:Depends},
 Conflicts: rtems-synapps-pc386,
 Description: Additional calculator record types
- Run-time expression evaluation, similar to calcPostfix, in base, but extended to handle strings,
- arrays, and additional numeric operations. calc also contains the transform record,
- which supports multiple interdependent expressions; aSub-record-based array-interpolation support;
- and the swait record, which is similar to the calcout record, but it writes using ca_put_notify(),
- and thus can detect the completion of any processing it causes.
+ Run-time expression evaluation, similar to calcPostfix,
+ in base, but extended to handle strings,  arrays, and
+ additional numeric operations. calc also contains the
+ transform record, which supports multiple interdependent
+ expressions; aSub-record-based array-interpolation support;
+ and the swait record, which is similar to the calcout record,
+ but it writes using ca_put_notify(), and thus can detect
+ the completion of any processing it causes.
  .
  This package contains support for the pc386 RTEMS BSP
