@@ -1,5 +1,5 @@
-PACKAGENAME (1-1) UNRELEASED; urgency=medium
+epics-calc (3.6.1-1) unstable; urgency=medium
 
   * initial
 
- --  <user@debian>  Thu, 10 Mar 2016 14:44:39 -0500
+ -- Michael Davidsaver <mdavidsaver@gmail.com>  Tue, 15 Mar 2016 11:45:42 -0400
