@@ -3,12 +3,16 @@ Section: libdevel
 Priority: extra
 Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
 Build-Depends: debhelper (>= 9), epics-debhelper (>= 8.14~),
-               epics-dev,
+               epics-dev, epics-asyn-dev,
                rtems-sscan-mvme2100,
                rtems-sscan-mvme3100,
                rtems-sscan-mvme5500,
                rtems-sscan-pc386,
-XS-Rtems-Build-Depends: rtems-epics, rtems-sscan,
+               rtems-asyn-mvme2100,
+               rtems-asyn-mvme3100,
+               rtems-asyn-mvme5500,
+               rtems-sscan-pc386,
+XS-Rtems-Build-Depends: rtems-epics, rtems-sscan, rtems-asyn,
 Standards-Version: 3.9.6
 Homepage: http://aps.anl.gov/bcda/synApps/calc/calc.html
 Vcs-Git: https://github.com/epicsdeb/epics-calc.git
