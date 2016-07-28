@@ -1,3 +1,9 @@
+epics-calc (3.6.1-2) unstable; urgency=medium
+
+  * Backport patch to install aCalcPostfix.h and sCalcPostfix.h
+
+ -- Michael Davidsaver <mdavidsaver@gmail.com>  Thu, 28 Jul 2016 13:39:21 -0400
+
 epics-calc (3.6.1-1) unstable; urgency=medium
 
   * initial
