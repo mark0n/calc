@@ -1,3 +1,11 @@
+epics-calc (3.7-1) unstable; urgency=medium
+
+  * Import 3.7 upstream
+  * Fix patch line endings
+  * Remove obsolete backport patch
+
+ -- Anton Derbenev <aaderbenev@gmail.gov>  Fri, 16 Mar 2018 15:44:32 -0400
+
 epics-calc (3.6.1-2) unstable; urgency=medium
 
   * Backport patch to install aCalcPostfix.h and sCalcPostfix.h
