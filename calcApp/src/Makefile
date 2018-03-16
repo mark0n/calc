@@ -16,9 +16,13 @@ ifdef SSCAN
 	DBDINC += swaitRecord
 endif
 
+# publish headers for sCalc and aCalc engines
+INC += sCalcPostfix.h aCalcPostfix.h
+
 # <name>.dbd will be created from <name>Include.dbd, if it exists
 DBD_INSTALLS += calcSupport.dbd
 DBD_INSTALLS += calc.dbd
+
 ifdef SNCSEQ
 	DBD += editSseq.dbd
 endif
@@ -47,6 +51,7 @@ endif
 
 calc_SRCS += interp.c
 calc_SRCS += arrayTest.c
+calc_SRCS += aCalcMonitorMem.c
 
 calc_LIBS += $(EPICS_BASE_IOC_LIBS)
 
