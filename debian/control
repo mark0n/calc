@@ -2,16 +2,16 @@ Source: epics-calc
 Section: libdevel
 Priority: extra
 Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
-Build-Depends: debhelper (>= 9), epics-debhelper (>= 8.14~),
-               epics-dev, epics-asyn-dev,
-               rtems-sscan-mvme2100,
-               rtems-sscan-mvme3100,
-               rtems-sscan-mvme5500,
-               rtems-sscan-pc386,
-               rtems-asyn-mvme2100,
-               rtems-asyn-mvme3100,
-               rtems-asyn-mvme5500,
-               rtems-sscan-pc386,
+Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14),
+               epics-debhelper (>= 8.14~), epics-dev, epics-asyn-dev,
+               rtems-sscan-mvme2100 <pkg.epics-base.rtems>,
+               rtems-sscan-mvme3100 <pkg.epics-base.rtems>,
+               rtems-sscan-mvme5500 <pkg.epics-base.rtems>,
+               rtems-sscan-pc386 <pkg.epics-base.rtems>,
+               rtems-asyn-mvme2100 <pkg.epics-base.rtems>,
+               rtems-asyn-mvme3100 <pkg.epics-base.rtems>,
+               rtems-asyn-mvme5500 <pkg.epics-base.rtems>,
+               rtems-sscan-pc386 <pkg.epics-base.rtems>,
 XS-Rtems-Build-Depends: rtems-epics, rtems-seq, rtems-sscan, rtems-asyn,
 Standards-Version: 3.9.6
 Homepage: http://aps.anl.gov/bcda/synApps/calc/calc.html
@@ -52,6 +52,7 @@ Description: Additional calculator record types
  This package contains runtime libraries
 
 Package: rtems-calc-mvme2100
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: epics-calc-dev (>= ${source:Version}),
          epics-calc-dev (<< ${source:Version}.1~),
@@ -70,6 +71,7 @@ Description: Additional calculator record types
  This package contains support for the MVME2100 VME SBC
 
 Package: rtems-calc-mvme3100
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: epics-calc-dev (>= ${source:Version}),
          epics-calc-dev (<< ${source:Version}.1~),
@@ -88,6 +90,7 @@ Description: Additional calculator record types
  This package contains support for the MVME3100 VME SBC
 
 Package: rtems-calc-mvme5500
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: epics-calc-dev (>= ${source:Version}),
          epics-calc-dev (<< ${source:Version}.1~),
@@ -106,6 +109,7 @@ Description: Additional calculator record types
  This package contains support for the MVME5500 VME SBC
 
 Package: rtems-calc-pc386
+Build-Profiles: <pkg.epics-base.rtems>
 Architecture: all
 Depends: epics-calc-dev (>= ${source:Version}),
          epics-calc-dev (<< ${source:Version}.1~),
