@@ -1,3 +1,9 @@
+epics-calc (3.6.1-3) unstable; urgency=medium
+
+  * Use build profile to enable RTEMS cross build
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Thu, 13 Sep 2018 14:56:43 -0400
+
 epics-calc (3.6.1-2) unstable; urgency=medium
 
   * Backport patch to install aCalcPostfix.h and sCalcPostfix.h
