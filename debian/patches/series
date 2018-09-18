@@ -1,3 +1,2 @@
 0001-update-configure-RELEASE.patch
 0002-fix-Wformat.patch
-0003-backport-install-postfix-headers.patch
