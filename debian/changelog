@@ -1,3 +1,9 @@
+epics-calc (3.7-2) unstable; urgency=medium
+
+  * Use build profile to enable RTEMS cross build
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Thu, 13 Sep 2018 14:56:43 -0400
+
 epics-calc (3.7-1) unstable; urgency=medium
 
   * Import 3.7 upstream
