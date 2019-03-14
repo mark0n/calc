@@ -1,3 +1,10 @@
+epics-calc (3.7.1-1) unstable; urgency=medium
+
+  * New upstream version 3.7.1
+  * Update patches
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Thu, 14 Mar 2019 13:47:07 -0400
+
 epics-calc (3.7-2) unstable; urgency=medium
 
   * Use build profile to enable RTEMS cross build
