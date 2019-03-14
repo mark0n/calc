@@ -7,28 +7,28 @@ Subject: update configure/RELEASE
  1 file changed, 4 insertions(+), 10 deletions(-)
 
 diff --git a/configure/RELEASE b/configure/RELEASE
-index 1bdc130..1268f99 100644
+index 95ce334..89baa7c 100644
 --- a/configure/RELEASE
 +++ b/configure/RELEASE
 @@ -4,22 +4,16 @@
-
+ 
  TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
-
+ 
 -SUPPORT=/home/oxygen/MOONEY/epics/synAppsSVN/support
 --include $(TOP)/../configure/SUPPORT.$(EPICS_HOST_ARCH)
 +SUPPORT=$(EPICS_BASE)
-
+ 
  # Need SSCAN module only to build the swait record (recDynLink library)
  # If you comment this definition out, the module will just decline to
  # build the swait record.
 -SSCAN=$(SUPPORT)/sscan-2-9
 +SSCAN=$(EPICS_BASE)
-
+ 
  # Need SNCSEQ module only to build editSseq.st.  If you comment this
  # definition out, the module will just decline to build editSseq.st.
--SNCSEQ=$(SUPPORT)/seq-2-1-16
+-#SNCSEQ=$(SUPPORT)/seq-2-1-16
 +SNCSEQ=$(EPICS_BASE)
-
+ 
  # EPICS_BASE usually appears last so other apps can override stuff:
 -EPICS_BASE=/home/oxygen/MOONEY/epics/bazaar/base-3.14
 --include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
