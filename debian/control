@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 9.20141010), dpkg-dev (>= 1.17.14),
                rtems-asyn-mvme5500 <pkg.epics-base.rtems>,
                rtems-sscan-pc386 <pkg.epics-base.rtems>,
 XS-Rtems-Build-Depends: rtems-epics, rtems-seq, rtems-sscan, rtems-asyn,
-Standards-Version: 3.9.6
+Standards-Version: 4.3.0
 Homepage: http://aps.anl.gov/bcda/synApps/calc/calc.html
 Vcs-Git: https://github.com/epicsdeb/epics-calc.git
 Vcs-Browser: https://github.com/epicsdeb/epics-calc
