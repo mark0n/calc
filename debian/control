@@ -21,7 +21,7 @@ Vcs-Browser: https://github.com/epicsdeb/epics-calc
 
 Package: epics-calc-dev
 Architecture: any
-Depends: libcalc3.7.1 (= ${binary:Version}),
+Depends: libcalc3.7.3 (= ${binary:Version}),
          ${shlibs:Depends}, ${misc:Depends},
          ${epics:Depends},
 Conflicts: epics-synapps, epics-synapps-dev,
@@ -37,7 +37,7 @@ Description: Additional calculator record types
  .
  This package contains headers and libraries needed at build time.
 
-Package: libcalc3.7.1
+Package: libcalc3.7.3
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: Additional calculator record types
