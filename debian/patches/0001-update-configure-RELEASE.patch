@@ -7,10 +7,10 @@ Subject: update configure/RELEASE
  1 file changed, 4 insertions(+), 10 deletions(-)
 
 diff --git a/configure/RELEASE b/configure/RELEASE
-index 95ce334..89baa7c 100644
+index 2f5d36d..301c815 100644
 --- a/configure/RELEASE
 +++ b/configure/RELEASE
-@@ -4,22 +4,16 @@
+@@ -4,25 +4,19 @@
  
  TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
  
@@ -37,3 +37,6 @@ index 95ce334..89baa7c 100644
 -#CAPFAST_TEMPLATES=
 -#SCH2EDIF_PATH=
 +EPICS_BASE=/usr/lib/epics
+ 
+ # These lines allow developers to override these RELEASE settings
+ # without having to modify this file directly.
